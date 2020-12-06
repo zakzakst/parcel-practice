@@ -1,3 +1,32 @@
-include assets/head.pug
-include assets/footer.pug
-<script src="../scripts/index.ts"></script>
+//- テンプレート（「//-」のコメントはHTMLに出力されない）
+extends assets/layout.pug
+
+//- 設定
+block settings
+  //- 変数
+  -
+    var pageData = {
+      title: 'ページタイトル',
+      description: 'ページ概要'
+    }
+  //- 関連ファイル
+  include assets/mixins.pug
+
+
+block header
+  // ヘッダー
+  include assets/head.pug
+
+block content
+  // コンテンツ
+  ul
+    +list('項目1')
+    +list('項目2')
+    +list('項目3')
+
+block footer
+  // フッター
+  include assets/footer.pug
+
+block append footer
+  <script src="../scripts/index.ts"></script>
