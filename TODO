@@ -1,2 +1,4 @@
 参考:
   ☐ PugをParcelで未圧縮(no-minify)で出力（https://www.coffee-break-designs.com/2098/）
+  ☐ webpackと比べてみてParcelはどうなのか（https://qiita.com/soarflat/items/3e43368b2d767c730781）
+  ☐ Pugの使い方（https://tech.qookie.jp/posts/info-pug-feature/、https://necosystem.hirokihomma.com/archives/121/、https://qiita.com/yun_bow/items/d21586b51f87d781a857、https://qiita.com/yuusuke510/items/844e97ce70b9ce64aaff）
